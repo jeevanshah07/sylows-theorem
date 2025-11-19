@@ -5,13 +5,13 @@ export default function Home() {
 	return (
 		<div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
 			<main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-				<Image className="dark:invert" src="/next.svg" alt="Next.js logo" width={180} height={38} priority />
-				<ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-					<li className="mb-2 tracking-[-.01em]">
-            Sylows Theorem
-					</li>
-					<li className="tracking-[-.01em]">Jeevan Shah</li>
-				</ol>
+        A proof of Sylows Theorem by Jeevan Shah. 
+      <div className="bg-gray-700 border border-gray-500 p-4 rounded text-white">
+        <b>What is Sylows Theorem?</b>
+        <br />
+        Sylows Theorem tells us that if we have a group G with size in the form (p^k)m where p is a prime and gcd(p, m)=1, then there exists a subgroup with size p^k.
+      </div>
+
 
 				<div className="flex gap-4 items-center flex-col sm:flex-row">
 					<Link
